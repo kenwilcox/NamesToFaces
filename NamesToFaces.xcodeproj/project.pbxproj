@@ -22,6 +22,8 @@
 		BE9368F61C081BA0003236F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE9368F91C081BA0003236F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE9368FB1C081BA0003236F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE782931C081C92006F5F80 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		BEE782941C081C92006F5F80 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,8 @@
 		BE9368E31C081BA0003236F1 = {
 			isa = PBXGroup;
 			children = (
+				BEE782931C081C92006F5F80 /* LICENSE.md */,
+				BEE782941C081C92006F5F80 /* README.md */,
 				BE9368EE1C081BA0003236F1 /* NamesToFaces */,
 				BE9368ED1C081BA0003236F1 /* Products */,
 			);
@@ -286,6 +290,7 @@
 				BE9369001C081BA0003236F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
