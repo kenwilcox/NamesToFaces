@@ -12,6 +12,7 @@
 		BE9368F51C081BA0003236F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9368F31C081BA0003236F1 /* Main.storyboard */; };
 		BE9368F71C081BA0003236F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9368F61C081BA0003236F1 /* Assets.xcassets */; };
 		BE9368FA1C081BA0003236F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9368F81C081BA0003236F1 /* LaunchScreen.storyboard */; };
+		BEBF3B901C096DEB0042E7E3 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF3B8F1C096DEB0042E7E3 /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BE9368F61C081BA0003236F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE9368F91C081BA0003236F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE9368FB1C081BA0003236F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBF3B8F1C096DEB0042E7E3 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 		BEE782931C081C92006F5F80 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		BEE782941C081C92006F5F80 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				BE9368EF1C081BA0003236F1 /* AppDelegate.swift */,
+				BEBF3B8F1C096DEB0042E7E3 /* PersonCell.swift */,
 				BE9368F11C081BA0003236F1 /* ViewController.swift */,
 				BE9368F31C081BA0003236F1 /* Main.storyboard */,
 				BE9368F61C081BA0003236F1 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBF3B901C096DEB0042E7E3 /* PersonCell.swift in Sources */,
 				BE9368F21C081BA0003236F1 /* ViewController.swift in Sources */,
 				BE9368F01C081BA0003236F1 /* AppDelegate.swift in Sources */,
 			);
